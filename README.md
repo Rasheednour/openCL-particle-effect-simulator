@@ -1,11 +1,16 @@
 # Particle Effect Simulator with OpenCL
 
-This C++ application harnesses the power of OpenCL to simulate a particle system where particles bounce off spheres and change colors upon impact. 
+This C++ application harnesses the power of OpenCL and parallel programming, as well as OpenGL and GLUI to simulate a particle system where particles bounce off spheres and change colors upon impact. 
 
 ## Overview
 
 - **Particle Simulation:** Particles are affected by gravity, and their position and velocity are updated each frame.
 - **Sphere Interaction:** When a particle collides with a sphere, it bounces back and changes color. There are currently three spheres in the simulation, and each one assigns a different color to the particles upon contact (red, green, and blue).
+
+## Simulation Demo
+
+![My Image](demo.PNG)
+
 
 ## File Structure
 
