@@ -15,6 +15,7 @@ This C++ application harnesses the power of OpenCL and parallel programming, as 
 ## File Structure
 
 - `particles.cl`: The core OpenCL code responsible for the particle physics simulation. This file includes functions to determine particle-bounce dynamics against spherical surfaces and to update particle positions and velocities.
+- `sample.cpp`: The core program file responsible for importing the various libraries needed and initiating the required graphics and UI using OpenGL and GLUI.
 
 ## Features
 
